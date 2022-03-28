@@ -5,6 +5,8 @@ env:
 extends:
   - plugin:vue/essential
   - airbnb-base
+  - "plugin:cypress/recommended"
+  - "plugin:chai-friendly/recommended"
 parserOptions:
   ecmaVersion: latest
   parser: '@typescript-eslint/parser'
@@ -13,4 +15,5 @@ plugins:
   - vue
   - '@typescript-eslint'
   - "cypress"
+  - "chai-friendly"
 rules: {}
